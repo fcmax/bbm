@@ -39,7 +39,6 @@ for f in bbmFiles:
 	file = open(outFolder+f+'.xml', 'w')
 	file.write(obj.makeXML())
 	file.close()
-    # I love Ira
 
 
 
