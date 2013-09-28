@@ -22,6 +22,7 @@ results = getBlock(lines, '[Results]', '[Status]')
 result = results[0].split(';')
 points1 = result[0::2]
 points2 = result[1::2]
+#some commited line
 
 print points2
 
